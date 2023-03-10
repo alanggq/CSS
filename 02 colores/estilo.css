@@ -1,0 +1,70 @@
+body{background:linear-gradient(blue,red)
+  
+}
+
+h1 {
+  background:linear-gradient(red,yellow);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+div{
+  width:100px;
+  height:100px;
+  border:2px solid yellow;
+  background:red;
+  margin:10px;
+}
+#color2{
+  text-align:center;
+  background:green;
+  color:red;
+  border:2px dashed;
+}
+.color3{
+  text-align:center;
+  background:#FF0ABC;
+  color:#32CD32;
+  border:2px dashed;
+}
+.color4{
+  text-align:center;
+  background:#00FFFF;
+  color:#FF0ABC;
+  border:2px dashed;
+}
+#color5{
+    text-align:center;
+  background:rgb(10,20,255);
+  color:pink;
+  border:2px dashed;
+}
+#color6{
+  text-align:center;
+  background:rgb(30, 10, 30);
+  color:pink;
+ border:2px dashed;
+}
+#color7{
+  text-align: center;
+  background: linear-gradient(blue,black);
+}
+#color8{
+    text-align: center;
+  background: rgb(10,10,10,0.2);
+}
+#color9{
+    text-align: center;
+  background: linear-gradient(to right,red,orange);
+}
+#color10{
+    text-align: center;
+  background: linear-gradient(180deg,red,orange,yellow,green,blue,indigo,violet);
+  border: 2px dashed;
+}
+
+ 
