@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+text-align: center;
+}
+h1{
+font-family: font-family: 'Smokum', cursive;;
+}
+@font-face {
+    font-family: robot;
+    src: local("roboto");
+    url ("03 texto\index.html");
+}
+.roboto{
+    font-family: 'Roboto';
+}
+.a{
+    font-family: 'Smokum', cursive;
+}
+.b{
+    font-family: 'Tilt Prism', cursive;
+}
+.c{
+    font-family: 'Pacifico', cursive;
+}
+.d{
+    font-family: 'Caveat', cursive;
+}
+.izquierda{
+    text-align: left;
+}
+.dere{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.jus{
+    text-align: justify;
+}
+.libre{
+    font-family: 'Roboto';
+    font-size: 72px;
+    background: linear-gradient(to botton right, red, yellow);
+    -webkit-background-clip: text;
+    color: black;
+}
+.libre:hover{
+    font-family: 'Roboto';
+    font-size: 72px;
+    background: linear-gradient(to botton right, blue, green);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: is all ease;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}
